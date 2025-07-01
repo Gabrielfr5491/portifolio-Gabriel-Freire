@@ -1,0 +1,335 @@
+*{
+margin: 0;
+padding: 0;  
+}
+
+.menu{
+background-color:rgb(20, 22, 37);
+padding: 30px;
+background: linear-gradient(270deg,#141625,#12114be7,#141625);
+
+}
+/* botoes do card  */
+.botao1{
+  margin-left: 1900px;
+}
+.botao1,.botao2,.botao3,.botao4,.botao5,.botao6{
+background-color: #222; 
+padding: 10px;
+border-radius: 13px;
+border-style: solid;
+border-color: black;
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: whitesmoke;
+}
+
+/* apresentacao  */
+.apresentaçao{
+text-align: center;  
+background: linear-gradient(130deg,#141625,#283381,#0056b3,#0ff,#00bfff,#0056b3,#283381,#141625);
+font-family: Georgia, 'Times New Roman', Times, serif;
+padding: 400px;
+font-size: 2.5rem;
+color: whitesmoke;
+transition: all 0.3s ease;
+animation: gradientmove1 10s ease infinite ;
+background-size: 600% 600%;
+}
+@keyframes gradientmove1{
+0% { background-position: 0% 50%; }
+50% { background-position: 100% 50%; }
+100% { background-position: 0% 50%; }  
+}
+/* sobre  */
+.sobre{
+text-align: center;
+background-color: rgb(12, 13, 22);
+padding: 200px;
+font-size:1.8rem ;
+color: whitesmoke;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* formacao  */
+.formacao{
+text-align: center;
+padding: 200px;
+background-color: rgb(12, 13, 22); 
+font-size: 1.8rem; 
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color: whitesmoke;
+}
+/* habilidades  */
+.habilidades {
+  position: relative;
+  height: 600px;
+  background-color: #0c0d16;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* os simbolos orbitando a bola  */
+.center-skill {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background-color: #141625;
+  border-radius: 50%;
+  color: white;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+.orbit {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  animation: spin 10s linear infinite;
+}
+
+.icon {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  font-size: 2rem;
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform-origin: 0 0;
+}
+
+/* Distribui os ícones em círculo usando rotação + translate */
+.icon:nth-child(1)  { transform: rotate(0deg)   translateX(200px); }
+.icon:nth-child(2)  { transform: rotate(45deg)  translateX(200px); }
+.icon:nth-child(3)  { transform: rotate(90deg)  translateX(200px); }
+.icon:nth-child(4)  { transform: rotate(135deg) translateX(200px); }
+.icon:nth-child(5)  { transform: rotate(180deg) translateX(200px); }
+.icon:nth-child(6)  { transform: rotate(225deg) translateX(200px); }
+.icon:nth-child(7)  { transform: rotate(270deg) translateX(200px); }
+.icon:nth-child(8)  { transform: rotate(315deg) translateX(200px); }
+
+@keyframes spin {
+  0%   { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.contato{
+text-align: center;
+background-color: rgb(12, 13, 22); 
+padding: 200px;
+font-size: 1.8rem;
+font-family: Georgia, 'Times New Roman', Times, serif; 
+color: whitesmoke;
+}
+/* botoes ao passar o mouse */
+.botao1:hover,.botao2:hover,.botao3:hover,.botao4:hover,.botao5:hover,.botao6:hover{
+box-shadow: 0 0 20px #0ff, 0 0 40px rgb(0, 255, 255);
+transform: scale(1.05) rotate(-1deg);
+transform: translateY(-5px);
+color: #0ff;
+}
+/* projetos  */
+.projetos{
+padding: 200px;
+text-align: center;
+background-color: #0c0d16;
+color: whitesmoke;
+font-size: 1.8rem;
+font-family: Georgia, 'Times New Roman', Times, serif;
+display: flex;
+justify-content: space-between;  
+}
+/* card giratorio */
+.projeto1,.projeto2{
+display: flex;
+justify-content: center;
+align-items:center ;  
+background-color: #222;
+width: 600px;height: 300px;
+border-radius: 25px;
+text-align: center;
+position: relative;
+transition: 0.8s;
+cursor: pointer;
+transform-style: preserve-3d;
+}
+
+.card-container {
+perspective: 1000px;
+}
+
+.card {
+width: 500px;
+height: 300px;
+position: relative;
+transform-style: preserve-3d;
+transition: transform 0.8s;
+cursor: pointer;
+}
+
+.card-container:hover .card {
+transform: rotateY(180deg);
+}
+
+.card-face {
+position: absolute;
+width: 100%;
+height: 100%;
+backface-visibility: hidden;
+border-radius: 16px;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 20px;
+color: white;
+}
+
+.card-front {
+background: #1a1a1a;
+}
+
+.card-back {
+background: #333;
+transform: rotateY(180deg);
+}
+
+
+.card-container1 {
+perspective: 1000px;
+}
+
+.card1 {
+width: 500px;
+height: 300px;
+position: relative;
+transform-style: preserve-3d;
+transition: transform 0.8s;
+cursor: pointer;
+}
+
+.card-container1:hover .card1 {
+transform: rotateY(180deg);
+}
+
+.card-face1 {
+position: absolute;
+width: 100%;
+height: 100%;
+backface-visibility: hidden;
+border-radius: 16px;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 20px;
+color: white;
+}
+
+.card-front1 {
+background: #1a1a1a;
+}
+
+.card-back1 {
+background: #333;
+transform: rotateY(180deg);
+}
+/* card ao passar o mouse */
+.card-container:hover,.card-container1:hover{
+box-shadow: 0 0 80px #0ff, 0 0 160px rgb(0, 255, 255);
+transform: scale(1.05) rotate(-1deg);
+transform: translateY(-5px);
+color: #0ff;
+transition: 2.5s;
+}
+/* formulario*/
+.form{
+display: flex;
+flex-direction: column;
+}
+
+
+.nome{
+padding: 10px;
+border-radius: 15px;  
+background: linear-gradient(360deg,#0c0d16,#141625);
+color: whitesmoke;
+border-style: solid;border-color: black;
+margin-right: 700px;margin-left: 700px;
+margin-top: 10px;
+}
+.email{
+padding: 10px;padding-right: 150px;
+border-radius: 15px;  
+background: linear-gradient(360deg,#0c0d16,#141625);
+color: whitesmoke;
+border-style: solid;border-color: black;
+margin-right: 700px;margin-left: 700px;
+margin-top: 10px;
+}
+.textarea{
+padding: 10px;padding-right: 150px;
+border-radius: 15px;  
+background: linear-gradient(360deg,#0c0d16,#141625);
+color: whitesmoke;
+border-style: solid;border-color: black;border-width: 1mm;
+margin-left: 700px;margin-right: 700px;
+padding-bottom: 100px;
+margin-top: 10px;
+}
+.botaoenviar{
+margin-left:1000px  ;  margin-right: 1000px;
+margin-top: 30px;
+position: relative;
+padding: 12px 24px;
+background: linear-gradient(270deg,#141625,#0056b3,#00bfff,#1a1a1a);
+background-size: 600% 600%;
+color: white;
+border: 2px solid #00bfff;
+border-radius: 25px;
+cursor: pointer;
+overflow: hidden;
+transition: all 0.4s ease;
+animation: gradientMove 5s ease infinite;
+}
+.textarea:hover,.email:hover,.nome:hover{
+box-shadow: 0 0 25px #0ff, 0 0 50px rgb(0, 255, 255);
+transform: scale(1.05) rotate(-1deg);
+transform: translateY(-5px);
+color: #0ff;
+transition: 0.5s;  
+}
+.botaoenviar:active{
+transform: scale(0.95);
+}
+.botaoenviar:hover{
+background-color: #0056b3;
+transform: translateY(-3px);
+box-shadow: 0 12px 20px rgba(0,0,0,0.4);
+}
+.botaoenviar::before{
+content: '';
+position: absolute;
+top: 0;
+left: -100%;
+width: 100%;
+height: 100%;
+background: #00bfff;
+transition: all 0.4s ease;
+z-index: -1;  
+}
+.botaoenviar:hover::before {
+left: 0;
+}
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+.footer{
+text-align: center;
+padding: 30px;
+background-color: #0e0d0dde;  
+color: whitesmoke;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+

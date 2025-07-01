@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portifolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+<!-- card os temas-->   
+<header>
+    <div class="menu">
+        <button onclick="scrollToSection('apresentaçao')" class="botao1">apresentaçao</button>
+        <button onclick="scrollToSection('sobre')" class="botao2">sobre</button>
+        <button onclick="scrollToSection('formaçao')" class="botao3">formaçao</button>
+        <button onclick="scrollToSection('habilidades')" class="botao4">habilidades</button>
+        <button onclick="scrollToSection('projetos')" class="botao5">projetos</button>
+        <button onclick="scrollToSection('contato')" class="botao6">contato</button>
+    </div>
+</header>
+
+<section id="apresentaçao">
+    <div class="apresentaçao">
+        <h1 id="typing"></h1>
+        <p id="typing1"></p>
+    </div>
+</section>
+
+<section id="sobre">
+    <div class="sobre">
+        <h1>sobre</h1>
+        <p>esta pagina tem o intuito de ser meu portifolio digital</p>
+    </div>
+</section>
+
+<section id="formaçao">
+    <div class="formacao">
+        <h1>formaçao</h1>
+        <p>Sou estudante de (ADS) <br> estou no segundo semestre,<br>tambem varios curso na area de promagaçao</p>
+    </div>
+</section>
+
+<section id="habilidades">
+  <div class="habilidades">
+    <!-- simbolos giratorios-->
+    <div class="center-skill">Habilidades</div>
+        <div class="orbit">
+            <div class="icon"><i class="fab fa-html5"></i></div>
+            <div class="icon"><i class="fab fa-css3-alt"></i></div>
+            <div class="icon"><i class="fab fa-js"></i></div>
+            <div class="icon"><i class="fab fa-python"></i></div>
+            <div class="icon"><i class="fab fa-react"></i></div>
+            <div class="icon"><i class="fab fa-node-js"></i></div>
+            <div class="icon"><i class="fab fa-git-alt"></i></div>
+            <div class="icon"><i class="fab fa-linux"></i></div>
+        </div>
+  </div>
+</section>
+
+<section id="projetos">
+<div class="projetos">
+    <h1>projetos:</h1>
+
+  <div class="card-container">
+    <!--ao clicar manda para outra pagina-->
+    <div class="card" onclick="window.location.href='index4.html'">
+        <div class=" card-face card-front">
+            <h1>dev dicas</h1>
+        </div>
+        <div class="card-face card-back">
+            <p>um repositorio de dicas criadas por mim , ao longo dos meus estudos e do que eu vou aprendendo</p>
+        </div>
+    </div>
+  </div>
+  <div class="card-container1">
+    <div class="card1" onclick="window.location.href='index2.html'">
+        <div class=" card-face1 card-front1">
+            <h1>calculadora</h1>
+        </div>
+        <div class=" card-face1 card-back1">
+            <p>calculadora simples com um design um pouco moderno</p>
+        </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<section id="contato">
+    <div class="contato">
+        <!--formulario de contato com nme email e mensagem-->
+        <h1>contato</h1>
+      <form class="form">
+        <label for="nome"></label>
+        <input class="nome" type="text" name="name" placeholder="Seu Nome" required />
+
+        <label for="email"></label>
+        <input class="email" type="email" name="email" placeholder="Seu Email" required />
+
+        <label for="Mensagem"></label>
+        <textarea class="textarea" name="message" rows="6" placeholder="Sua Mensagem" required></textarea>
+
+        <button class="botaoenviar" type="submit">Enviar Mensagem</button>
+      </form>
+    </div>
+</section>   
+<!-- direitos reservados -->
+<footer class="footer">
+    <p>Gabriel Freire 2025.Todos direitos reservados</p>
+</footer>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,381 @@
+
+[
+  {
+    "id": 1,
+    "linguagem": "HTML",
+    "titulo": "Tags semânticas",
+    "codigo": "<section>, <article>, <header>, <footer>",
+    "tag": "acessibilidade"
+  },
+  {
+    "id": 2,
+    "linguagem": "CSS",
+    "titulo": "Centralizar com Flexbox",
+    "codigo": "display: flex; justify-content: center; align-items: center;",
+    "tag": "layout"
+  },
+  {
+    "id": 3,
+    "linguagem": "JavaScript",
+    "titulo": "Declaração de variáveis",
+    "codigo": "const nome = 'João'; let idade = 30;",
+    "tag": "variáveis"
+  },
+  {
+    "id": 4,
+    "linguagem": "JavaScript",
+    "titulo": "Arrow function simples",
+    "codigo": "const soma = (a, b) => a + b;",
+    "tag": "funções"
+  },
+  {
+    "id": 5,
+    "linguagem": "Python",
+    "titulo": "List comprehension",
+    "codigo": "[x*2 for x in lista if x > 5]",
+    "tag": "listas"
+  },
+  {
+    "id": 6,
+    "linguagem": "Python",
+    "titulo": "Tratamento de exceções",
+    "codigo": "try:\n  # código\nexcept Exception as e:\n  print(e)",
+    "tag": "erros"
+  },
+  {
+    "id": 7,
+    "linguagem": "Linux",
+    "titulo": "Listar arquivos com detalhes",
+    "codigo": "ls -la",
+    "tag": "terminal"
+  },
+  {
+    "id": 8,
+    "linguagem": "Linux",
+    "titulo": "Buscar arquivos por nome",
+    "codigo": "find /caminho -name 'arquivo.txt'",
+    "tag": "terminal"
+  },
+  {
+    "id": 9,
+    "linguagem": "Git",
+    "titulo": "Desfazer último commit",
+    "codigo": "git reset --soft HEAD~1",
+    "tag": "controle de versão"
+  },
+  {
+    "id": 10,
+    "linguagem": "Git",
+    "titulo": "Criar e mudar para uma nova branch",
+    "codigo": "git checkout -b nome-da-branch",
+    "tag": "controle de versão"
+  },
+  {
+    "id": 11,
+    "linguagem": "HTML",
+    "titulo": "Use atributos ARIA para acessibilidade",
+    "codigo": "role=\"button\" aria-label=\"Fechar\"",
+    "tag": "acessibilidade"
+  },
+  {
+    "id": 12,
+    "linguagem": "HTML",
+    "titulo": "Meta viewport para responsividade",
+    "codigo": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+    "tag": "responsividade"
+  },
+  {
+    "id": 13,
+    "linguagem": "CSS",
+    "titulo": "Usar variáveis CSS",
+    "codigo": ":root { --main-color: #3498db; } .btn { color: var(--main-color); }",
+    "tag": "boas práticas"
+  },
+  {
+    "id": 14,
+    "linguagem": "CSS",
+    "titulo": "Transições suaves",
+    "codigo": "transition: all 0.3s ease;",
+    "tag": "animação"
+  },
+  {
+    "id": 15,
+    "linguagem": "JavaScript",
+    "titulo": "Debounce para otimizar eventos",
+    "codigo": "function debounce(fn, delay) { let timeout; return function() { clearTimeout(timeout); timeout = setTimeout(fn, delay); }; }",
+    "tag": "performance"
+  },
+  {
+    "id": 16,
+    "linguagem": "JavaScript",
+    "titulo": "Uso do operador optional chaining",
+    "codigo": "const nome = obj?.usuario?.nome;",
+    "tag": "segurança"
+  },
+  {
+    "id": 17,
+    "linguagem": "Python",
+    "titulo": "Função lambda para funções anônimas",
+    "codigo": "soma = lambda x, y: x + y",
+    "tag": "funções"
+  },
+  {
+    "id": 18,
+    "linguagem": "Python",
+    "titulo": "Use f-strings para formatação",
+    "codigo": "nome = 'Ana'; print(f'Olá, {nome}!')",
+    "tag": "strings"
+  },
+  {
+    "id": 19,
+    "linguagem": "Linux",
+    "titulo": "Mostrar uso de disco",
+    "codigo": "df -h",
+    "tag": "sistema"
+  },
+  {
+    "id": 20,
+    "linguagem": "Linux",
+    "titulo": "Ver processos em execução",
+    "codigo": "top ou htop",
+    "tag": "sistema"
+  },
+  {
+    "id": 21,
+    "linguagem": "Git",
+    "titulo": "Clonar um repositório",
+    "codigo": "git clone url-do-repositorio",
+    "tag": "controle de versão"
+  },
+  {
+    "id": 22,
+    "linguagem": "Git",
+    "titulo": "Ver status do repositório",
+    "codigo": "git status",
+    "tag": "controle de versão"
+  },
+  {
+    "id": 23,
+    "linguagem": "HTML",
+    "titulo": "Carregamento assíncrono de scripts",
+    "codigo": "<script src=\"script.js\" async></script>",
+    "tag": "performance"
+  },
+  {
+    "id": 24,
+    "linguagem": "HTML",
+    "titulo": "Usar atributo alt em imagens",
+    "codigo": "<img src=\"foto.jpg\" alt=\"Descrição da imagem\">",
+    "tag": "acessibilidade"
+  },
+  {
+    "id": 25,
+    "linguagem": "CSS",
+    "titulo": "Usar rem e em ao invés de px",
+    "codigo": "font-size: 1.2rem;",
+    "tag": "responsividade"
+  },
+  {
+    "id": 26,
+    "linguagem": "CSS",
+    "titulo": "Pseudo-classes úteis",
+    "codigo": ":hover, :focus, :nth-child(n)",
+    "tag": "estilização"
+  },
+  {
+    "id": 27,
+    "linguagem": "JavaScript",
+    "titulo": "Manipulação de DOM eficiente",
+    "codigo": "const el = document.getElementById('id'); el.textContent = 'Novo texto';",
+    "tag": "DOM"
+  },
+  {
+    "id": 28,
+    "linguagem": "JavaScript",
+    "titulo": "Promises para código assíncrono",
+    "codigo": "fetch(url).then(res => res.json()).then(data => console.log(data));",
+    "tag": "assíncrono"
+  },
+  {
+    "id": 29,
+    "linguagem": "Python",
+    "titulo": "Usar virtualenv para ambientes isolados",
+    "codigo": "python -m venv env",
+    "tag": "ambiente"
+  },
+  {
+    "id": 30,
+    "linguagem": "Python",
+    "titulo": "Iterar sobre dicionários",
+    "codigo": "for chave, valor in dict.items(): print(chave, valor)",
+    "tag": "estruturas"
+  },
+  {
+    "id": 31,
+    "linguagem": "Linux",
+    "titulo": "Alterar permissões de arquivos",
+    "codigo": "chmod 755 arquivo.sh",
+    "tag": "permissões"
+  },
+  {
+    "id": 32,
+    "linguagem": "Linux",
+    "titulo": "Procurar texto dentro de arquivos",
+    "codigo": "grep 'texto' arquivo.txt",
+    "tag": "busca"
+  },
+  {
+    "id": 33,
+    "linguagem": "Git",
+    "titulo": "Adicionar arquivos ao stage",
+    "codigo": "git add arquivo.txt",
+    "tag": "controle de versão"
+  },
+  {
+    "id": 34,
+    "linguagem": "Git",
+    "titulo": "Criar tag em commit",
+    "codigo": "git tag -a v1.0 -m \"Versão 1.0\"",
+    "tag": "controle de versão"
+  },
+  {
+    "id": 35,
+    "linguagem": "CSS",
+    "titulo": "Use Box-sizing para controlar o tamanho total",
+    "codigo": "*, *::before, *::after { box-sizing: border-box; }",
+    "tag": "boas práticas"
+  },
+  {
+    "id": 36,
+    "linguagem": "CSS",
+    "titulo": "Crie layouts responsivos com media queries",
+    "codigo": "@media (max-width: 768px) { /* estilos para mobile */ }",
+    "tag": "responsividade"
+  },
+  {
+    "id": 37,
+    "linguagem": "CSS",
+    "titulo": "Use variáveis CSS para cores e tamanhos",
+    "codigo": ":root { --cor-primaria: #1abc9c; } .btn { background-color: var(--cor-primaria); }",
+    "tag": "boas práticas"
+  },
+  {
+    "id": 38,
+    "linguagem": "CSS",
+    "titulo": "Crie animações com keyframes",
+    "codigo": "@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }",
+    "tag": "animações"
+  },
+  {
+    "id": 39,
+    "linguagem": "CSS",
+    "titulo": "Use Flexbox para alinhar itens facilmente",
+    "codigo": "display: flex; justify-content: space-between; align-items: center;",
+    "tag": "layout"
+  },
+  {
+    "id": 40,
+    "linguagem": "CSS",
+    "titulo": "Evite usar !important para manter o CSS limpo",
+    "codigo": "/* prefira especificidade em vez de !important */",
+    "tag": "boas práticas"
+  },
+  {
+    "id": 41,
+    "linguagem": "CSS",
+    "titulo": "Use CSS Grid para layouts complexos",
+    "codigo": "display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 20px;",
+    "tag": "layout"
+  },
+  {
+    "id": 42,
+    "linguagem": "CSS",
+    "titulo": "Use pseudo-classes para interações",
+    "codigo": "button:hover { background-color: #3498db; }",
+    "tag": "interação"
+  },
+  {
+    "id": 43,
+    "linguagem": "CSS",
+    "titulo": "Use transições para suavizar mudanças de estilo",
+    "codigo": "transition: background-color 0.3s ease;",
+    "tag": "animações"
+  },
+  {
+    "id": 44,
+    "linguagem": "CSS",
+    "titulo": "Centralize um elemento com margin auto",
+    "codigo": "width: 300px; margin: 0 auto;",
+    "tag": "layout"
+  },
+  {
+    "id": 45,
+    "linguagem": "HTML",
+    "titulo": "Use a tag <picture> para imagens responsivas",
+    "codigo": "<picture>\n  <source media=\"(max-width: 799px)\" srcset=\"small.jpg\">\n  <source media=\"(min-width: 800px)\" srcset=\"large.jpg\">\n  <img src=\"fallback.jpg\" alt=\"Descrição\">\n</picture>",
+    "tag": "responsividade"
+  },
+  {
+    "id": 46,
+    "linguagem": "HTML",
+    "titulo": "Use formulários com validação nativa",
+    "codigo": "<input type=\"email\" required placeholder=\"email@example.com\">",
+    "tag": "formulários"
+  },
+  {
+    "id": 47,
+    "linguagem": "HTML",
+    "titulo": "Use o atributo lang no elemento <html>",
+    "codigo": "<html lang=\"pt-BR\">",
+    "tag": "acessibilidade"
+  },
+  {
+    "id": 48,
+    "linguagem": "HTML",
+    "titulo": "Utilize o atributo alt em todas as imagens",
+    "codigo": "<img src=\"logo.png\" alt=\"Logotipo da empresa\">",
+    "tag": "acessibilidade"
+  },
+  {
+    "id": 49,
+    "linguagem": "HTML",
+    "titulo": "Use o elemento <label> para melhorar formulários",
+    "codigo": "<label for=\"nome\">Nome:</label>\n<input id=\"nome\" type=\"text\">",
+    "tag": "formulários"
+  },
+  {
+    "id": 50,
+    "linguagem": "HTML",
+    "titulo": "Use a tag <video> com múltiplos formatos",
+    "codigo": "<video controls>\n  <source src=\"video.mp4\" type=\"video/mp4\">\n  <source src=\"video.webm\" type=\"video/webm\">\n  Seu navegador não suporta vídeo.\n</video>",
+    "tag": "mídia"
+  },
+  {
+    "id": 51,
+    "linguagem": "HTML",
+    "titulo": "Use o atributo defer para scripts",
+    "codigo": "<script src=\"script.js\" defer></script>",
+    "tag": "performance"
+  },
+  {
+    "id": 52,
+    "linguagem": "HTML",
+    "titulo": "Use a tag <meta charset> para definir codificação",
+    "codigo": "<meta charset=\"UTF-8\">",
+    "tag": "boas práticas"
+  },
+  {
+    "id": 53,
+    "linguagem": "HTML",
+    "titulo": "Utilize o elemento <nav> para menus de navegação",
+    "codigo": "<nav>\n  <ul>\n    <li><a href=\"#home\">Home</a></li>\n    <li><a href=\"#about\">Sobre</a></li>\n  </ul>\n</nav>",
+    "tag": "semântica"
+  },
+  {
+    "id": 54,
+    "linguagem": "HTML",
+    "titulo": "Use o atributo tabindex para controle do foco",
+    "codigo": "<button tabindex=\"0\">Botão acessível</button>",
+    "tag": "acessibilidade"
+  }
+]
