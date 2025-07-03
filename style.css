@@ -272,7 +272,7 @@ border-radius: 15px;
 background: linear-gradient(360deg,#0c0d16,#141625);
 color: whitesmoke;
 border-style: solid;border-color: black;border-width: 1mm;
-margin-left: 35%px;margin-right: 35%;
+margin-left: 35%;margin-right: 35%;
 padding-bottom: 100px;
 margin-top: 10px;
 }
@@ -280,7 +280,7 @@ margin-top: 10px;
 margin-left:50%  ;  margin-right: 50%;
 margin-top: 30px;
 position: relative;
-padding: 12px 24px;
+padding: 12px 48px;
 background: linear-gradient(270deg,#141625,#0056b3,#00bfff,#1a1a1a);
 background-size: 600% 600%;
 color: white;
@@ -290,6 +290,7 @@ cursor: pointer;
 overflow: hidden;
 transition: all 0.4s ease;
 animation: gradientMove 5s ease infinite;
+text-align: center;
 }
 .textarea:hover,.email:hover,.nome:hover{
 box-shadow: 0 0 25px #0ff, 0 0 50px rgb(0, 255, 255);
@@ -333,3 +334,68 @@ color: whitesmoke;
 font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+/* ============================= */
+/* RESPONSIVO PARA MOBILE       */
+/* ============================= */
+@media (max-width: 1024px) {
+  .menu {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .botao1, .botao2, .botao3, .botao4, .botao5, .botao6 {
+    margin: 5px;
+    padding: 8px 12px;
+    font-size: 1rem;
+  }
+
+  .apresentaçao {
+    padding: 15% 5%;
+    font-size: 1.8rem;
+  }
+
+  .sobre, .formacao, .contato, .projetos {
+    padding: 10% 5%;
+    font-size: 1.2rem;
+  }
+
+  .orbit {
+    width: 250px;
+    height: 250px;
+  }
+
+  .icon {
+    width: 30px;
+    height: 30px;
+    font-size: 1.5rem;
+  }
+
+  .icon:nth-child(1)  { transform: rotate(0deg)   translateX(125px); }
+  .icon:nth-child(2)  { transform: rotate(45deg)  translateX(125px); }
+  .icon:nth-child(3)  { transform: rotate(90deg)  translateX(125px); }
+  .icon:nth-child(4)  { transform: rotate(135deg) translateX(125px); }
+  .icon:nth-child(5)  { transform: rotate(180deg) translateX(125px); }
+  .icon:nth-child(6)  { transform: rotate(225deg) translateX(125px); }
+  .icon:nth-child(7)  { transform: rotate(270deg) translateX(125px); }
+  .icon:nth-child(8)  { transform: rotate(315deg) translateX(125px); }
+
+  .card, .card1 {
+    width: 90%;
+    height: 250px;
+    margin: 20px auto;
+  }
+
+  .form input.nome,
+  .form input.email,
+  .form textarea.textarea {
+    width: 70%;
+    margin: 10px auto;
+  }
+
+  .botaoenviar {
+    margin: 40px auto 0 auto;
+    display: block;
+  }
+}
