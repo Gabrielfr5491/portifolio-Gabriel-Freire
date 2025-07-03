@@ -146,7 +146,7 @@ display: flex;
 justify-content: center;
 align-items:center ;  
 background-color: #222;
-width: 600px;height: 300px;
+width: 30%;height: 15%;
 border-radius: 25px;
 text-align: center;
 position: relative;
@@ -254,7 +254,7 @@ border-radius: 15px;
 background: linear-gradient(360deg,#0c0d16,#141625);
 color: whitesmoke;
 border-style: solid;border-color: black;
-margin-right: 700px;margin-left: 700px;
+margin-right: 35%;margin-left: 35%;
 margin-top: 10px;
 }
 .email{
@@ -263,7 +263,7 @@ border-radius: 15px;
 background: linear-gradient(360deg,#0c0d16,#141625);
 color: whitesmoke;
 border-style: solid;border-color: black;
-margin-right: 700px;margin-left: 700px;
+margin-right: 35%;margin-left: 35%;
 margin-top: 10px;
 }
 .textarea{
@@ -272,12 +272,12 @@ border-radius: 15px;
 background: linear-gradient(360deg,#0c0d16,#141625);
 color: whitesmoke;
 border-style: solid;border-color: black;border-width: 1mm;
-margin-left: 700px;margin-right: 700px;
+margin-left: 35%px;margin-right: 35%;
 padding-bottom: 100px;
 margin-top: 10px;
 }
 .botaoenviar{
-margin-left:1000px  ;  margin-right: 1000px;
+margin-left:50%  ;  margin-right: 50%;
 margin-top: 30px;
 position: relative;
 padding: 12px 24px;
