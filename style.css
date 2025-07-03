@@ -2,13 +2,13 @@
   margin: 0;
   padding: 0;
 }
-
+/* menu */
 .menu {
   background-color: rgb(20, 22, 37);
   padding: 30px;
   background: linear-gradient(270deg, #141625, #12114be7, #141625);
 }
-
+/* botoes do menu */
 .botao1, .botao2, .botao3, .botao4, .botao5, .botao6 {
   background-color: #222;
   padding: 10px;
@@ -19,8 +19,8 @@
   color: whitesmoke;
   position: relative;
   overflow: hidden;
-}
-
+} 
+/* botoes reageam ao passar mouse */
 .botao1:hover::after,.botao2:hover::after,.botao3:hover::after,.botao4:hover::after,.botao5:hover::after,.botao6:hover::after{
   content: "";
   position: absolute;
@@ -52,6 +52,8 @@
   from { box-shadow: 0 0 10px rgb(0, 225, 255); }
   to   { box-shadow: 0 0 30px rgb(0, 4, 255); }
 }
+
+/* apresentacao*/
 .apresentaçao {
   text-align: center;
   background: linear-gradient(130deg, #141625, #283381, #0056b3, #0ff, #00bfff, #0056b3, #283381, #141625);
@@ -69,7 +71,7 @@
   50% { background-position: 100% 50%; }
   100% { background-position: 0% 50%; }
 }
-
+/* padrao da area : sobrre formacao e contato */
 .sobre, .formacao, .contato {
   text-align: center;
   background-color: rgb(12, 13, 22);
@@ -78,7 +80,7 @@
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: whitesmoke;
 }
-
+/* habilidades */
 .habilidades {
   position: relative;
   height: 30%;
@@ -89,6 +91,7 @@
   padding-bottom: 5%;
 }
 
+/* rotacao na palavra habilidade*/
 .center-skill {
   position: absolute;
   width: 150px;
@@ -135,6 +138,24 @@
   100% { transform: rotate(360deg); }
 }
 
+/*  projetos*/
+.projetos{
+  position: relative; 
+  display:grid;
+  align-items: center;
+  justify-content:center;
+  background-color:#0c0d16;
+  height: 30%;
+  
+}
+.npro{
+  color: aliceblue;  
+  font-size: 1.8rem;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* cards de projetos*/
 .card-container, .card-container1 {
   perspective: 1000px;
   display: flex;
@@ -152,7 +173,7 @@
   margin: 8%;
   
 }
-
+/* rotacao do card*/
 .card-container:hover .card,
 .card-container1:hover .card1 {
   transform: rotateY(180deg);
@@ -190,14 +211,11 @@
   
 }
 
-
-
-
 @keyframes blinkGlow {
   from { box-shadow: 0 0 50px #0ff; }
   to   { box-shadow: 0 0 200px #0ff; }
 }
-
+/* formulario*/
 .form {
   display: flex;
   flex-direction: column;
@@ -219,7 +237,7 @@ transform: translateY(-5px);
 color: rgb(15, 22, 22);
 transition: 0.5s;  
 }
-
+/* efeito no botao*/
 .botaoenviar {
   margin: 30px auto 0;
   padding: 12px 24px;
@@ -262,7 +280,7 @@ left: 0;
   50% { background-position: 100% 50%; }
   100% { background-position: 0% 50%; }
 }
-
+/* creditos*/
 .footer {
   text-align: center;
   padding: 30px;
@@ -271,7 +289,7 @@ left: 0;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-
+/* otimizacao para celular*/
 @media (max-width: 768px) {
   .menu {
     display: flex;
@@ -339,18 +357,5 @@ left: 0;
     margin-right: auto;
   }
 }
-.projetos{
-  position: relative; 
-  display:grid;
-  align-items: center;
-  justify-content:center;
-  background-color: #0c0d16;
-  height: 30%;
-  
-}
-.npro{
-  color: aliceblue;  
-  font-size: 1.8rem;
-  text-align: center;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
+
+
